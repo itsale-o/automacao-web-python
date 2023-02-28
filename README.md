@@ -1,5 +1,7 @@
 ## Automação de processos - Pesquisa de Preços
 
+Este é um projeto que foi construído do zero e para fins 100% didáticos
+
 #### :notebook: :pencil2: Objetivo:
 
 Construir um projeto de automação web em python, fazeno uso principalmente do selenium para fazer as buscas das informações que precisamos. Faremos a pesquisa e o filtro de alguns produtos pré estabelecidos vindos de uma base de dados (neste caso em excel.xlsx)
