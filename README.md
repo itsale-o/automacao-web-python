@@ -1,6 +1,6 @@
 ## Automação de processos - Pesquisa de Preços
 
-Este é um projeto que foi construído do zero e para fins 100% didáticos
+Este é um projeto que foi construído do zero e para fins de estudo
 
 #### :notebook: :pencil2: Objetivo:
 
