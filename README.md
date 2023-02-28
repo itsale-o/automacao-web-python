@@ -16,9 +16,10 @@ Nossos objetivos então são o seguinte:
 
 #### :pencil: Em resumo:
 
-O programa construído deve fazer a leitura da bese de dados, fazer a pesquisa dos produtos contidos nela e filtrá-los de acordo com algumas especificações e a faixa de preço. No fim da sua execução, o programa deve criar uma nova base de dados listando todos os produtos que atendem a todas especificações estabelecidas e enviar um email com as informações obtidas
+O programa construído deve fazer a leitura da bese de dados, fazer a pesquisa dos produtos contidos nela e filtrá-los de acordo com algumas especificações e a faixa de preço. No fim da sua execução, o programa deve criar uma nova base de dados listando todos os produtos que atendem a todas especificações estabelecidas e enviar um e-mail com as informações obtidas
 
 
 :exclamation: Observações: 
 - Neste projeto, o programa foi desenvolvido considerando a ferramenta de busca google e buscapé, mas pode ser adaptado para qualquer outro site de compras
 - A base de dados que foi utilizada na costrução do programa está disponível para a visualização aqui
+- O e-mail utilizado neste projeto é um e-mail criado exclusivamente para testes de códigos
