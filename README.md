@@ -1,4 +1,4 @@
-## Projeto de Automação Web
+## Projeto de Automação de processos - Pesquisa de Preços
 
 #### :notebook: :pencil2: Objetivo:
 
@@ -23,3 +23,4 @@ O programa construído deve fazer a leitura da bese de dados, fazer a pesquisa d
 - Neste projeto, o programa foi desenvolvido considerando a ferramenta de busca google e buscapé, mas pode ser adaptado para qualquer outro site de compras
 - A base de dados que foi utilizada na costrução do programa está disponível para a visualização aqui
 - O e-mail utilizado neste projeto é um e-mail criado exclusivamente para testes de códigos
+- O e-mail foi enviado usando o serviço do Google, onde é preciso gerar uma senha de app na área de configuração do gmail. Esta senha foi utilizada como senha do e-mail ao invés da senha do email de fato 
