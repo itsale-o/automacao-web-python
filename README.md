@@ -1,16 +1,14 @@
 # Web automation - Price Research
 
-This is project was made to make the price research easier
+This is project was made to make the price research easier. It was made for studying purposes only.
 
 ## Table of contents
 
-- [Overview](#Overview)
+- [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -18,77 +16,54 @@ This is project was made to make the price research easier
 
 This project was developed 100% with python. The objective is to facilitate the price research of any product (I used only two, but you can use as many as you like)
 
+### Objectives :notebook: :pencil2:
+
+To built a project of web automation using python making use mostly of selenium to make the research of the information we need.
+
+We'll do the research and make a filter of some products pre established coming from a database (in this case an excel.xlsx).
+
+### How it will work :computer:
+
+Here we established a imaginary situation where we work at the shopping area of a company and we need to compare some suppliers for our products. With these informations we naturally search on the websites for the products availability and the prices
+
+Our objectives here are the following:
+
+- The price of the products we are looking for must be lower than a limit defined before. We will find the products and put them on a table
+- Then, we will e-mail (whoever needs to receive the information) with the list we made
+
+### In Summary :pencil:
+
+The program must read the original database, search for the products there and filter them according to some specifications and the price limit. At the end, it must create a new database listing all products that was found, and send an e-mail with all the information.
+
+ ### Observations :exclamation:
+ 
+- In this project, the program was developed considering the google shopping search tool but it can be adapted to any other  website
+- The database that was used in the construction of the program is available for viewing in this repository
+- The email used in this project is an email created exclusively for code testing
+- The email was sent using Google service, where you need to generate an app password in the gmail configuration area. This password was used as the email password instead of the actual email password.
+
 ### Screenshot
 
 ![This is a display of the dataframe the program should return](/return_df_products.png)
+This is an example with the products I used
 
-### Links
-
-- Solution URL: [This is my solution](https://itsale-o.github.io/qr-code-frontend-mentor/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [Google Fonts](https://fonts.google.com/) - to change the default font
+- Python
+- Selenuim
 
 ### What I learned
 
-This was a good project where a could review mostly my CSS knowledge and habilities.
-
-### Continued development
-
-This project was a great opportunity for me. It made me realize that I deal really well with front-end and solving the problems that might get in the way. I can see myself working with this in the (not so distant, I hope) future. Of course that I'll keep studying and getting better every day.
+To be more organized with my code in order to avoid errors in the execution in the future.
 
 ### Useful resources
 
-- [Converting Colors](https://convertingcolors.com/) - This website converts the code of the colors for whichever format you like (RGB, RGB%, HEX, etc...). Personally I prefer to use HEX format on my codes, so this was very useful to me. I strongly recommend a visit to anyone .
+- [Google](https://www.google.com/) - I used basically Google to make the price research, but the code may be adapted to any website you want to use. It will depend only of its looks so you can built your code properly using the website elements.
 
 ## Author
 
-- Frontend Mentor - [@itsale-o](https://www.frontendmentor.io/profile/itsale-o)
 - LinkedIn - [alessandra-santos-oliveira](https://www.linkedin.com/in/alessandra-santos-oliveira/)
 - Twitter - [@itsale_o](https://twitter.com/itsale_o) (I don't talk about work there but feel free to follow me)
-
-
-
-
-
-
-
-
-
-
-
-## Automação de processos - Pesquisa de Preços
-
-Este é um projeto que foi construído do zero e para fins de estudo
-
-#### :notebook: :pencil2: Objetivo:
-
-Construir um projeto de automação web em python, fazeno uso principalmente do selenium para fazer as buscas das informações que precisamos. Faremos a pesquisa e o filtro de alguns produtos pré estabelecidos vindos de uma base de dados (neste caso em excel.xlsx)
-
-#### :computer: Funcionamento:
-
-Aqui estabelecemos uma situação imaginária onde trabalhamos na área de compras de uma empresa e precisamos fazer uma comparação de fornecedores para os nossos produtos. Com essas informações naturalmente buscamos nos sites desses fornecedores os produtos disponíveis e o preço, afinal, cada um deles pode fazer promoção em momentos diferentes e com valores diferentes.
-
-Nossos objetivos então são o seguinte: 
-
-- O preço dos produtos que procuramos deve ser abaixo de um preço limite definido previamente. Vamos descobrir os produtos mais baratos e atualizar isso em uma planilha.
-- Em seguida, vamos enviar um e-mail com a lista dos produtos abaixo do seu preço máximo de compra.
-- No nosso caso, vamos fazer com produtos comuns em sites como Google Shopping.
-
-#### :pencil: Em resumo:
-
-O programa construído deve fazer a leitura da bese de dados, fazer a pesquisa dos produtos contidos nela e filtrá-los de acordo com algumas especificações e a faixa de preço. No fim da sua execução, o programa deve criar uma nova base de dados listando todos os produtos que atendem a todas especificações estabelecidas e enviar um e-mail com as informações obtidas
-
-
-:exclamation: Observações: 
-- Neste projeto, o programa foi desenvolvido considerando a ferramenta de busca google shopping mas pode ser adaptado para qualquer outro site de compras
-- A base de dados que foi utilizada na costrução do programa está disponível para a visualização neste repositório
-- O e-mail utilizado neste projeto é um e-mail criado exclusivamente para testes de códigos
-- O e-mail foi enviado usando o serviço do Google, onde é preciso gerar uma senha de app na área de configuração do gmail. Esta senha foi utilizada como senha do e-mail ao invés da senha do email de fato 
