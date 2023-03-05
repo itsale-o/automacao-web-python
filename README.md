@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Web automation - Price Research
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is project was made to make the price research easier
 
 ## Table of contents
 
@@ -16,11 +16,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). It is a QR Code, and when scanned it leads us to [Frontend Mentor homepage](https://www.frontendmentor.io/). **This solution is the desktop version.**
+This project was developed 100% with python. The objective is to facilitate the price research of any product (I used only two, but you can use as many as you like)
 
 ### Screenshot
 
-![This is a screenshot of my solution](/qr_code_solution_desktop.png)
+![This is a display of the dataframe the program should return](/return_df_products.png)
 
 ### Links
 
